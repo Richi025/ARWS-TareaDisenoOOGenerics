@@ -105,7 +105,7 @@ Seven unit tests were conducted, which verify the proper functioning of the code
     public void testCalculateMeanFileTable1() {
         String filePath = "src/main/java/edu/escuelaing/arsw/ASE/app/Table1.txt";
         try{
-            List<LinkedList<Double>> columns = StatisticsOperations.readNumbersFromFile(filePath);
+            List<LinkedList<Double>> columns = StatisticalCalculator.readNumbersFromFile(filePath);
             double meanColumn1 = StatisticsOperations.calculateMean(columns.get(0));
             assertEquals(550.6, meanColumn1, 0.001);
             double meanColumn2 = StatisticsOperations.calculateMean(columns.get(1));
