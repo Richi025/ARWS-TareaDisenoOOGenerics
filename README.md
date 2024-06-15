@@ -4,6 +4,8 @@
 
 It is a program that allows calculating the mean and the standard deviation of a set of n real numbers. This program reads txt files that have a column and row structure like the document "**Table1.txt**".
 
+![imgTable1.png](Images%2FimgTable1.png)
+
 For example, a typical invocation would be:
 ```
 java -jar target/TareaDisenoOOGenerics-1.0-SNAPSHOT.jar "FilePath"
