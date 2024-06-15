@@ -146,7 +146,7 @@ The methods considered are the following:
 
 ### Phase architecture
 
-to be able to run the application using "*java -jar*" including in the "pom.xml" file and specifying the main class.
+To be able to run the application using "*java -jar*" including in the "pom.xml" file and specifying the main class.
 
 ```
     <plugins>
