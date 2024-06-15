@@ -142,7 +142,7 @@ The methods considered are the following:
 * next : Returns the next element in the iteration.
 * remove :Removes the element at the specified index in the linked list.
 
-![img.png](Images/imgDesing.png)
+![img.png](Images/imgDesig.png)
 
 ### Phase architecture
 
